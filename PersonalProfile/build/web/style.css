@@ -1,0 +1,57 @@
+
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #b9d0ee, #cedef4, #ffffff, #cedef4, #b9d0ee);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+/* Form */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    box-shadow: 2px 2px 10px #ccc;
+    margin: auto;
+}
+
+input, textarea {
+    width: 95%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+}
+
+button {
+    background: #0088cc;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #005f88;
+}
+
+/* The display card */
+.card {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px #ccc;
+    margin: auto;
+}
+
+h2 {
+    color: #2b5876;
+}
+

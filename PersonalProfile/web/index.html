@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Profile</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+         <style>
+             body{
+                 flex-direction: column;
+             }
+        </style>
+    </head>
+   
+    <body>
+        <form action="ProfileServlet" method="post">
+            <h2 style="text-align: center;">Personal Profile Form</h2>
+            Name: <input type="text" name="name" required>
+            Student ID: <input type="text" name="studentId" required>
+            Program: <input type="text" name="program" required>
+            Email: <input type="email" name="email" required>
+            Hobbies: <input type="text" name="hobbies" required>
+            Self Introduction: <textarea name="intro" required></textarea>
+
+            <div style="text-align: center; margin: 20px;">
+                <button style="border-radius: 5px;" type="submit">Submit</button>
+            </div>
+            <div style="text-align: center;">
+                <a href="viewProfile.jsp">
+                    <button style="border-radius: 5px;" type="button">View Other Profiles</button>
+                </a>
+            </div>
+        </form>
+       
+    </body>
+</html>
